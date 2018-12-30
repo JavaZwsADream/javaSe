@@ -9,6 +9,7 @@ private LocalDate hireDay;
 
   public Employee(String name,double salary,int year,int month,int day)
 {
+
 	super(name);
 	this.salary=salary;
 	this.hireDay=LocalDate.of(year, month, day);
